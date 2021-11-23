@@ -25,7 +25,7 @@ public class PhotoDaoTest {
 
     @BeforeEach
     public void setup() {
-        entityManagerFactory = Persistence.createEntityManagerFactory("PhotoComments");
+        entityManagerFactory = Persistence.createEntityManagerFactory("ru.sber.hibernate");
         emUtil = new EntityManagerUtil(entityManagerFactory);
         photoDao = new PhotoDaoImpl(entityManagerFactory);
     }

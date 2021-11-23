@@ -39,7 +39,7 @@ public class PhotoCommentMappingTest {
 
     @BeforeAll
     public static void setup() {
-        entityManagerFactory = Persistence.createEntityManagerFactory("PhotoComments");
+        entityManagerFactory = Persistence.createEntityManagerFactory("ru.sber.hibernate");
         emUtil = new EntityManagerUtil(entityManagerFactory);
     }
 
